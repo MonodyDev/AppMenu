@@ -1,0 +1,17 @@
+.applet-box .applet-label {
+    max-width: 24em;
+}
+
+.appmenu-container {
+    spacing: 0;
+}
+
+.appmenu-app-name {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.appmenu-panel-button {
+    padding-left: 8px;
+    padding-right: 8px;
+}

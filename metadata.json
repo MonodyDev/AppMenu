@@ -1,0 +1,7 @@
+{
+    "uuid": "AppMenu@n0va",
+    "name": "Global App Menu",
+    "description": "Global app menu applet for Cinnamon",
+    "max-instances": 1,
+    "version": "0.1.0"
+}
