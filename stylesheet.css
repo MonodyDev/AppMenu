@@ -8,10 +8,68 @@
 
 .appmenu-app-name {
     font-weight: bold;
-    padding-right: 10px;
+}
+
+.appmenu-panel-button .applet-label {
+    font-weight: normal;
+}
+
+.appmenu-panel-button.appmenu-app-name .applet-label {
+    font-weight: bold;
 }
 
 .appmenu-panel-button {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.appmenu-panel-label {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.popup-menu-item.appmenu-popup-item,
+.popup-sub-menu .popup-menu-item.appmenu-popup-item {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.popup-menu-item.appmenu-popup-item:active,
+.popup-menu-item.appmenu-popup-item.appmenu-hover,
+.popup-menu-item.appmenu-popup-item.appmenu-submenu-open,
+.popup-sub-menu .popup-menu-item.appmenu-popup-item:active,
+.popup-sub-menu .popup-menu-item.appmenu-popup-item.appmenu-hover,
+.popup-sub-menu .popup-menu-item.appmenu-popup-item.appmenu-submenu-open {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.menu.appmenu-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.popup-menu-content.appmenu-menu-content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.popup-menu-content.appmenu-menu-content > .popup-menu-item:first-child,
+.popup-menu-content.appmenu-menu-content > .popup-menu-item:last-child {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.appmenu-popup-leading {
+    min-width: 0em;
+}
+
+.appmenu-popup-label {
+    margin-top: 0;
+    margin-bottom: 0;
 }
